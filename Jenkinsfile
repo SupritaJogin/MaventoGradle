@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Change this URL to your Maven project repo
-                git branch: 'main', url: 'https://github.com/SupritaJogin/MaventoGradle.git'
+                git branch: 'main', url: 'https://github.com/SupritaJogin/MavenGuavaApp.git'
             }
         }
 
